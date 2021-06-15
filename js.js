@@ -57,9 +57,9 @@ startStop.onclick = function () {
 //reset button
 reset.onclick = function () {
     clearInterval(interval)
-    zseconds = 0;
-    zminutes = 0;
-    zhours = 0;
+    seconds = 0;
+    minutes = 0;
+    hours = 0;
     document.getElementById('displayTime').innerHTML = "00:00:00"
     startStop.innerHTML = "Start"
 }
